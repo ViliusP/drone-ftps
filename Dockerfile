@@ -2,7 +2,7 @@ FROM alpine:edge
 
 RUN apk --no-cache add \
         libressl \
-        openssh-server \
+        openssh-client \
         lftp \
         bash
 
